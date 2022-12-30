@@ -2,7 +2,8 @@ const dotenv = require("dotenv");
 dotenv.config();
 const mongoose = require("mongoose");
 
-const DB = process.env.SECRET_Key;
+const DB =
+  "mongodb+srv://Ravi1408:hJsKwVDCc9OQQbaI@cluster0.rg3mox3.mongodb.net/?retryWrites=true&w=majority";
 
 mongoose.set("strictQuery", true);
 mongoose
